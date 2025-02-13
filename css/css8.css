@@ -1,0 +1,271 @@
+
+
+.element8{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    width: 100vw;
+    height: auto;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2vw;
+    background: #F7F1FC;
+
+}
+
+
+
+
+
+.element8_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2vw;
+    width:100%;
+}
+
+.element8_header h1{
+    font-size:4.5vw;
+}
+
+.element8_header p{
+    font-size:3vw;
+}
+
+
+
+.btn-8{
+    width: 3vw;
+    height: 3vw;
+    border-radius:50%;
+    background: #573DB8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn_container-8{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    gap:0.1vw;
+}
+
+
+/* .element8_header_left{
+    width:70%;
+} */
+
+.view_button-8{
+    width:80%;
+    height:3vw;
+    background: #573DB8;
+    font-size:1vw;
+    color: white;
+    border-radius:2vw;
+    border: none;
+}
+
+
+.element8_section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width:100%;
+    gap:3vw;
+    padding: 1vw;
+    /* border-bottom: 1px solid #07000E; */
+    /* background: red; */
+}
+
+.border_right{
+    border-right: 1px solid #07000E;
+
+}
+
+
+
+
+.border_left{
+    padding-left:3vw;
+    border-left: 1px solid #07000E;
+
+}
+
+
+
+
+
+
+.element8_section1_card{
+    width:40%;
+}
+
+.element8_section1_card p{
+    width:80%;
+}
+
+.element8_section1_card_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap:1vw;
+}
+
+
+.element8_section1_card_header h2{
+    font-size:2vw;
+
+}
+
+
+.element8_section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width:100%;
+    gap:3vw;
+    padding: 1vw;
+    /* border-bottom: 1px solid #07000E; */
+    /* background: red; */
+}
+
+
+@media screen and (max-width: 1020px) {
+
+
+    .element8_header{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap:2vw;
+        width:100%;
+    }
+
+
+    .element8_header h1{
+        font-size:4.5vw;
+    }
+    
+    .element8_header p{
+        font-size:3vw;
+    }
+    
+    
+    
+    .btn-8{
+        width: 3vh;
+        height: 3vh;
+        border-radius:50%;
+        background: #573DB8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn-8 img{
+        width:70%;
+    }
+    .btn_container-8{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width:40%;
+        gap:0.1vw;
+    }
+    
+    
+    
+    .view_button-8{
+        width:80%;
+        height:3vh;
+        background: #573DB8;
+        font-size:1vh;
+        color: white;
+        border-radius:2vw;
+        border: none;
+    }
+    .element8_section1_card{
+        width:100%;
+    }
+    
+    .element8_section1_card p{
+        font-size:3vw;
+        width:80%;
+    }
+    
+    .element8_section1_card_header{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        gap:1vw;
+    }
+
+
+
+    .element8_section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width:100%;
+        gap:6vh;
+        padding: 1vw;
+        border-bottom: 0px solid #07000E;
+        /* background: red; */
+    }
+    
+
+
+    .element8_section1_card_header h2{
+        font-size:3vh;
+        font-weight: 700;
+    
+    }
+
+
+
+    .element8_section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        width:100%;
+        gap:6vh;
+        padding: 1vw;
+        /* border-bottom: 1px solid #07000E; */
+        /* background: red; */
+    }
+    
+
+
+
+
+    .element8{
+
+        gap:6vh;
+ 
+    
+    }
+
+
+
+
+
+
+
+
+}
