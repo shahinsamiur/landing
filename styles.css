@@ -152,7 +152,7 @@ body{
 }
 
 .hero_social_icons img {
-    width: 12px;
+    width: 2vw;
     cursor: pointer;
 }
 
@@ -180,7 +180,7 @@ body{
 
 .hero_title h1 {
     font-weight: 200;
-    font-size:50px;
+    font-size:5vw;
     background: inherit;
     font-family: "DM Sans";
     /* font-size: ; */
@@ -230,7 +230,7 @@ body{
 }
 
 .hero_contant_2 img {
-    width:17vw;
+    height:50vh;
     position: absolute;
     
     
@@ -238,8 +238,8 @@ body{
 .hero_shape1{
     background-color:#F7F1FC;
     position: relative;
-    width:15vw;
-    height:19.5vw;
+    width:25vh;
+    height:50.5vh;
     border-radius:4%;
     transform: rotate(-14deg);
 }
@@ -249,8 +249,8 @@ body{
     background-color:#8FD45F;
     position: relative;
     top:2%;
-    width:14vw;
-    height:16vw;
+    width:24vh;
+    height:40vh;
     border-radius:4%;
     transform: rotate(15deg);
 }
@@ -499,7 +499,7 @@ body{
     .hero_contant_2 {
        /* background-color: #573DB8; */
        width: 100vw;
-       height:70vw;
+       height:50vh;
         display: flex;
         flex-direction: row;
         /* gap: 2vh; */
@@ -508,7 +508,7 @@ body{
     }
     
     .hero_contant_2 img {
-        width:47vw;
+        width:47vh;
         position: absolute;
         
         
@@ -831,7 +831,7 @@ body{
     .hero_contant_2 {
        /* background-color: #573DB8; */
        width: 100vw;
-       height:70vw;
+       height:50vh;
         display: flex;
         flex-direction: row;
         /* gap: 2vh; */
@@ -840,7 +840,7 @@ body{
     }
     
     .hero_contant_2 img {
-        width:47vw;
+        width:35vh;
         position: absolute;
         
         

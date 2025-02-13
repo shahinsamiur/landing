@@ -41,6 +41,10 @@ ul {
 .footer-content {
   position: relative;
   z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .footer-pattern img {
   position: absolute;
@@ -84,7 +88,7 @@ ul {
   border-radius: 50%;
 }
 .facebook-bg{
-    background-image: url('/assets/w-1.svg');
+    background-image: url('/assets/w-1.jpg');
   
 }
 .twitter-bg{
@@ -100,6 +104,24 @@ ul {
   margin-bottom: 40px;
   position: relative;
 }
+
+
+.yoyo{
+  width:50%;
+}
+
+
+
+
+
+.footer-widget{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: red; */
+}
 /* .footer-widget-heading h3::before {
   content: "";
   position: absolute;
@@ -112,7 +134,11 @@ ul {
 .footer-widget ul li {
   display: inline-block;
   /* float: left; */
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
@@ -126,7 +152,9 @@ ul {
 }
 .subscribe-form {
   position: relative;
+  /* background: yellow; */
   overflow: hidden;
+  width: 100%;
 }
 .subscribe-form input {
   width: 100%;
@@ -181,7 +209,35 @@ ul {
     color: rgb(255, 255, 255,0.2);
 }
 
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  /* background: red; */
+}
 
+.rowf{
+  /* background: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.input_email{
+  width:100%;
+  border-radius:2vw;
+}
+
+.ulala{
+    width:100%;
+    /* margin-bottom:3vh; */
+  }
 
 
 @media screen and (max-width: 1020px) {
@@ -194,7 +250,12 @@ ul {
         font-size:1.7vh;
       }
 
-
+      .yoyo{
+        width:100%;
+      }
+      
+      
+      
 
       .footer-logo {
         display: flex;
@@ -211,6 +272,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width:100%;
 }
 
 .cr{
@@ -224,8 +286,11 @@ ul {
 
 
 .footer-widget ul li {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* float: left; */
+
   width: 100%;
   margin-bottom: 12px;
 }
@@ -253,7 +318,14 @@ ul {
   width: 100%;
 }
 
-
+.footer-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 }
 

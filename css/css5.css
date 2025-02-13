@@ -44,7 +44,7 @@
     display: flex;
     align-items: end;
     justify-content: center;
-    background-image: url('/assets/person01.svg');
+    background-image: url('/assets/person01.jpg');
     background-size: cover;
     background-position: start;
     background-repeat: no-repeat;
@@ -52,19 +52,19 @@
 }
 
 .person-2{
-    background-image: url('/assets/person02.svg');
+    background-image: url('/assets/person02.jpg');
 
 }
 
 
 .person-3{
-    background-image: url('/assets/person03.svg');
+    background-image: url('/assets/person03.jpg');
 
 }
 
 
 .person-4{
-    background-image: url('/assets/person04.svg');
+    background-image: url('/assets/person04.jpg');
 
 }
 
@@ -72,7 +72,7 @@
 
 
 .person-5{
-    background-image: url('/assets/person05.svg');
+    background-image: url('/assets/person05.jpg');
 
 }
 
