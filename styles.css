@@ -332,7 +332,7 @@ body{
 }
 
 .hero_button p{
-    width:50%;
+    width:70%;
     text-align: center;
     font-family: "DM Sans";
     
@@ -671,7 +671,7 @@ body{
     
     .hero_button p{
         position: relative;
-        width:50%;
+        width:70%;
         text-align: center;
         font-family: "DM Sans";
         
@@ -1003,9 +1003,10 @@ body{
     
     .hero_button p{
         position: relative;
-        width:50%;
+        width:70%;
         text-align: center;
         font-family: "DM Sans";
+        font-size:0.8vh;
         
     
     }
