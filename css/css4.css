@@ -81,7 +81,7 @@
 }
 
 .project_card_image {
-    background-image: url('http://127.0.0.1:5500/assets/project_image_01.svg');
+    background-image: url('/assets/project_image_01.svg');
     /* Path to your image */
     background-size: cover;
     /* Cover the entire container */
@@ -131,17 +131,17 @@
 
 
 .bg_image_4{
-    background-image: url('http://127.0.0.1:5500/assets/project_image_04.svg');
+    background-image: url('/assets/project_image_04.svg');
 
 }
 
 .bg_image_3{
-    background-image: url('http://127.0.0.1:5500/assets/project_image_03.svg');
+    background-image: url('/assets/project_image_03.svg');
 
 }
 
 .bg_image_2{
-    background-image: url('http://127.0.0.1:5500/assets/project_image_02.svg');
+    background-image: url('/assets/project_image_02.svg');
 
 }
 
